@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestLapiseira {
 
     @Test
-    public void testInicialização()
+    public void testInicializacao()
     {
         Lapiseira lapiseira = new Lapiseira(0.5f);
         assertEquals(0.5f, lapiseira.getCalibre(),
